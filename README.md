@@ -16,5 +16,5 @@ find tmp -type f -print0 | xargs --no-run-if-empty -0 chmod 0644;
 ```
 
 ```
-chown -R www-data:www-data tmp;
+sudo chown -R www-data:www-data tmp;
 ```
